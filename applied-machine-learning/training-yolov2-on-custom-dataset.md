@@ -606,5 +606,5 @@ The main purpose of this article was to show how you can convert the annotated d
 1. https://pjreddie.com/darknet/yolo/
 2. https://medium.com/@manivannan_data/how-to-train-yolov2-to-detect-custom-objects-9010df784f36
 3. https://blog.goodaudience.com/part-1-preparing-data-before-training-yolo-v2-and-v3-deepfashion-dataset-3122cd7dd884
-
+4. https://github.com/pjreddie/darknet
 
