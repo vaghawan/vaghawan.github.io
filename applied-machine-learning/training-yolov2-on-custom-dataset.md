@@ -175,7 +175,7 @@ draw_boxes(cv2.imread("test_yolo/train/000d9c59687b509b.jpg"), boxes)
 The output should look like this: 
 
 The converted annotation box:
-![]({% static 'static/images/appletest.png' %})
+![](static/images/appletest.png)
 
 
 
@@ -186,7 +186,7 @@ img = train[train["ImageID"]=="000d9c59687b509b.jpg"]
 original = [[0.000000,0.378125,0.000000,0.379167],[0.280000,0.872500,0.379167,0.865000],[0.346875,0.385625,0.483333,0.535833]]
 draw_boxes(cv2.imread("test_yolo/train/000d9c59687b509b.jpg"), original)
 ```
-![]({% static 'static/images/apple-test-original.png' %})
+![](static/images/apple-test-original.png)
 
 
 Sorry, I was lazy to automate the values placed while testing the conversion, you can select the any values from the dataframe and put that to visualize the result. For me, I just copied one row and paste that there as a list of list. 
@@ -595,7 +595,7 @@ For train and valid, the path should point to the correct directory where we sav
 
 ### The output should look like this: 
 
-![]({% static 'static/images/predictions.png' %})
+![](static/images/predictions.png)
 
 
 The main purpose of this article was to show how you can convert the annotated data available in google open image to the yolo format and use them to train the yolo model. Let me know if you encountered any error throughout the process.
