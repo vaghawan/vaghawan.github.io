@@ -175,7 +175,7 @@ draw_boxes(cv2.imread("test_yolo/train/000d9c59687b509b.jpg"), boxes)
 The output should look like this: 
 
 The converted annotation box:
-![Converted Image](static/images/appletest.png)
+![Converted Image]({{'static/images/appletest.png' | absolute_url}})
 
 
 
@@ -186,7 +186,8 @@ img = train[train["ImageID"]=="000d9c59687b509b.jpg"]
 original = [[0.000000,0.378125,0.000000,0.379167],[0.280000,0.872500,0.379167,0.865000],[0.346875,0.385625,0.483333,0.535833]]
 draw_boxes(cv2.imread("test_yolo/train/000d9c59687b509b.jpg"), original)
 ```
-![Original Annotation](static/images/apple-test-original.png)
+
+![Original Annotation]({{'/static/images/apple-test-original.png' | abosolute_url}})
 
 
 Sorry, I was lazy to automate the values placed while testing the conversion, you can select the any values from the dataframe and put that to visualize the result. For me, I just copied one row and paste that there as a list of list. 
@@ -547,7 +548,7 @@ We changed the number of classes, and the value of filters in the last convoluti
 
 `filters=(classes + 5)*5 in our case filters= (12+5)*5`
 
-These parameters are described in the referenced url: https://medium.com/@manivannan_data/how-to-train-yolov2-to-detect-custom-objects-9010df784f36 
+These parameters are described in the [referenced url](https://medium.com/@manivannan_data/how-to-train-yolov2-to-detect-custom-objects-9010df784f36) 
 
 Now let us have the classes names in a seperate file called `fruits.names` in the same `cfg` directory. The following classes represents our new data: 
 
@@ -595,7 +596,7 @@ For train and valid, the path should point to the correct directory where we sav
 
 ### The output should look like this: 
 
-![Output Image](/static/images/predictions.png)
+![Output Image]({{'/static/images/predictions.png' | abosolute_url}})
 
 
 The main purpose of this article was to show how you can convert the annotated data available in google open image to the yolo format and use them to train the yolo model. Let me know if you encountered any error throughout the process.
