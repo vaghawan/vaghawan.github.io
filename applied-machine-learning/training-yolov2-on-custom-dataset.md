@@ -596,7 +596,7 @@ For train and valid, the path should point to the correct directory where we sav
 
 ### The output should look like this: 
 
-![Output Image]({{'/static/images/predictions.png' | abosolute_url}})
+![Output Image]({{'/static/images/predictions.jpg' | abosolute_url}})
 
 
 The main purpose of this article was to show how you can convert the annotated data available in google open image to the yolo format and use them to train the yolo model. Let me know if you encountered any error throughout the process.
