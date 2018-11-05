@@ -593,8 +593,18 @@ For train and valid, the path should point to the correct directory where we sav
 
 
 
-# The output should look like this: 
+### The output should look like this: 
 
 ![]({% static 'static/images/predictions.png' %})
+
+
+The main purpose of this article was to show how you can convert the annotated data available in google open image to the yolo format and use them to train the yolo model. Let me know if you encountered any error throughout the process.
+
+
+### References: 
+
+1. https://pjreddie.com/darknet/yolo/
+2. https://medium.com/@manivannan_data/how-to-train-yolov2-to-detect-custom-objects-9010df784f36
+3. https://blog.goodaudience.com/part-1-preparing-data-before-training-yolo-v2-and-v3-deepfashion-dataset-3122cd7dd884
 
 
