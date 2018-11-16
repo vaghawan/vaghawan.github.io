@@ -3,7 +3,8 @@
 Without sounding too smart as if to describe everything of YOLO artitecture, in this article I would rather show you a lame approach of plugging the custom data set and training a new model in the Google open image datasets. If you're however to curious to understand it, you could follow the author's [webpage](https://pjreddie.com/darknet/yolo/) and the [articles](https://pjreddie.com/publications/). 
 
 
-# Data Sets: I’m using the dataset provided by [google open image](https://storage.googleapis.com/openimages/web/index.html) , the data looks quite like this: 
+### Data Sets: 
+I’m using the dataset provided by [google open image](https://storage.googleapis.com/openimages/web/index.html) , the data looks quite like this: 
 
 You can also find the sample file in the project repo. 
 
