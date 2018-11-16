@@ -1,9 +1,9 @@
 ## Training YoloV2 in Custom Dataset
 
-Without sounding too smart as if to understand every tip of the YOLO artitecture, in this article I would rather show you a lame approach of plugging the custom data set and training a new model in the Google open image datasets. If you're however to curious to understand it, you could follow the author's [webpage](https://pjreddie.com/darknet/yolo/) and the [articles](https://pjreddie.com/publications/). 
+Without sounding too smart as if to describe everything of YOLO artitecture, in this article I would rather show you a lame approach of plugging the custom data set and training a new model in the Google open image datasets. If you're however to curious to understand it, you could follow the author's [webpage](https://pjreddie.com/darknet/yolo/) and the [articles](https://pjreddie.com/publications/). 
 
 
-#Data Sets: I’m using the dataset provided by [google open image](https://storage.googleapis.com/openimages/web/index.html) , the data looks quite like this: 
+# Data Sets: I’m using the dataset provided by [google open image](https://storage.googleapis.com/openimages/web/index.html) , the data looks quite like this: 
 
 You can also find the sample file in the project repo. 
 
@@ -63,7 +63,7 @@ val.to_csv('val_fruits_1.csv', index=False)
 
 ```
 
-The above process is only necessary if you have the the training and validation csv downloaded from the google open image. If however you haven't I've uploaded the csv files concerning the data in the project repo. The two csv file contains the 1000 data point of each fruit category.
+<!-- The above process is only necessary if you have the the training and validation csv downloaded from the google open image. If however you haven't I've uploaded the csv files concerning the data in the project repo. The two csv file contains the 1000 data point of each fruit category. -->
 
 
 # Converting Annotation Bbox to Yolo Format
