@@ -1,6 +1,6 @@
 ## Training YoloV2 in Custom Dataset
 
-Without sounding too smart as if to describe everything of YOLO artitecture, in this article I would rather show you a lame approach of plugging the custom data set and training a new model in the Google open image datasets. If you're however to curious to understand it, you could follow the author's [webpage](https://pjreddie.com/darknet/yolo/) and the [articles](https://pjreddie.com/publications/). 
+Without sounding too smart as if to describe everything of YOLO artitecture here, in this article I would rather show you a lame approach of plugging the custom data set and training a new model in the Google open image datasets. If you're however to curious to understand it, you could follow the author's [webpage](https://pjreddie.com/darknet/yolo/) and the [articles](https://pjreddie.com/publications/). 
 
 
 ### Data Sets: 
