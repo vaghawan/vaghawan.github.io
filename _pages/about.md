@@ -6,6 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+Please know that I'm naive and learning myself, so the mistakes may be prevailing on all bends..
 
 Latest Posts
 ======
